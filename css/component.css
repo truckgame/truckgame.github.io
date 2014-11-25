@@ -1,0 +1,160 @@
+/* General styles for all menus */
+.cbp-spmenu {
+	background: rgba(71, 163, 218, 0.8);
+	position: fixed;
+    margin-top: 70px;
+    height: 304px !important;
+}
+
+.cbp-spmenu h3 {
+	color: #afdefa;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: rgba(13, 119, 182, 0.5);
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: rgba(37, 142, 205, 0.5);
+}
+
+.cbp-spmenu a:active {
+	background: rgba(175, 222, 250, 0.5);
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid rgb(46, 145, 204);
+	padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -240px;
+}
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-height: 26.375em){
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+    
+    #share_container {
+        display: inline;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .share {
+        text-align: center;
+        border-bottom: none !important;
+    }
+    #share1 {
+        display: block;
+        padding: 0 !important;
+    }
+    #share2 {
+        display: block;
+        padding: 0 !important;
+    }
+    #share3 {
+        display: block;
+        padding: 0 !important;
+    }
+}
+
+/* Share Options */
+
+#share_container {
+    display: table;
+    width: 100%;
+}
+#sharethis {
+    text-align: center;
+    padding: 10px;
+}
+.share {
+    text-align: center;
+    padding: 10px 20px 10px 20px !important;
+    border-bottom: none !important;
+}
+#share1 {
+    display: table-cell;
+}
+#share2 {
+    vertical-align: middle;
+    display: table-cell;
+}
+#share3 {
+    display: table-cell;
+}
+
+/*Menu Arrow*/
+
+a.arrow {
+    text-decoration: none !important;
+    color: rgba(46, 145, 204, .5) !important;
+}
+a.arrow:hover {
+    text-decoration: none !important;
+    color: rgba(46, 145, 204, 1) !important;
+}
