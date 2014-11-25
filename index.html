@@ -20,15 +20,6 @@
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
-    <script type="text/javascript">
-      // This takes out the jQuery variable '$' from the global scope
-      $.noConflict();
-      jQuery(document).ready(function($) {
-        // Code that uses jQuery's $ can follow here.
-      });
-      // Code that uses other library's $ can follow here.
-    </script>
     <!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
 		* {
@@ -179,6 +170,9 @@
     <script>
 		// Size the canvas to fill the browser viewport.
         
+		jQuery(window).resize(function() {
+			cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+		});
 		
 		// Start the Construct 2 project running on window load.
 		jQuery(document).ready(function ()
@@ -186,6 +180,20 @@
 			// Create new runtime using the c2canvas
 			cr_createRuntime("c2canvas");
 		});
+		
+		// Pause and resume on page becoming visible/invisible
+		function onVisibilityChanged() {
+			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+				cr_setSuspended(true);
+			else
+				cr_setSuspended(false);
+		};
+		
+		document.addEventListener("visibilitychange", onVisibilityChanged, false);
+		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+		
     </script>
     
 </body> 
