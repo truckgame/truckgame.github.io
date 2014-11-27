@@ -1,8 +1,8 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: rgba(71, 163, 218, 0.8);
+	background: rgba(71, 163, 218, 0.9);
 	position: fixed;
-    margin-top: 70px;
+    margin-top: 50px;
     height: 304px !important;
 }
 
@@ -12,7 +12,7 @@
 	padding: 20px;
 	margin: 0;
 	font-weight: 300;
-	background: rgba(13, 119, 182, 0.5);
+	background: rgba(13, 119, 182, 0.7);
 }
 
 .cbp-spmenu a {
@@ -23,11 +23,11 @@
 }
 
 .cbp-spmenu a:hover {
-	background: rgba(37, 142, 205, 0.5);
+	background: rgba(37, 142, 205, 0.7);
 }
 
 .cbp-spmenu a:active {
-	background: rgba(175, 222, 250, 0.5);
+	background: rgba(175, 222, 250, 0.7);
 	color: #47a3da;
 }
 

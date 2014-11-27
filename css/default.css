@@ -121,14 +121,10 @@ a:hover {
     position: fixed;
     top: 0px !important;
     left: 0px !important;
-    display: inline-block !important;
-	border: 0px !important;
-	padding: 0px !important;
-    background: none !important;
+    display: inline-block;
 	display: block;
-	width: 100px;
+    width: 100px;
 	cursor: pointer;
-	margin: 10px 0;
 	font-size: 0.8em;
     z-index: 9000;
 }
@@ -178,4 +174,7 @@ a:hover {
 }
 button:focus {
     outline-style:none !important;
+}
+#showLeft:hover {
+    opacity: .7;
 }
