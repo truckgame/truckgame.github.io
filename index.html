@@ -19,6 +19,8 @@
     <!-- Links for Toyota Menu Slider -->
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!--Lightbox stylesheet-->
+    <link rel="stylesheet" href="css/lightbox.css">
     <!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
 		* {
@@ -117,65 +119,32 @@
                     </div>
             </nav>
         </div>
+    
+    <!-- Lightbox -->
+    <div id="boxes">
+      <div style="top: 199.5px; left: 551.5px; display: none; color: black;" id="dialog" class="window"> 
+        Toyota Baja 100 Off-Road Race 2014
+          </br></br>
+        <div id="lorem">
+          <p>The Fjord Team has broken down AGAIN! Deliver the used car parts to help the fjord team get back in the race. Careful not to drop any of the cargo!</p>
+        </div>
+        <div id="popupfoot"> <a href="#" class="close agree"style="color:black;">Okay!</a> </div>
+      </div>
+      <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+    </div>
 	
 	<!-- Pages load faster with scripts at the bottom -->
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+    
+    <!--jQuery Library-->
     <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
-
+    <!--Script for menu slider-->
     <script src="js/classie.js"></script>
-
-    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
-    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+    <!--Lightbox Pop-up-->
+    <script src="js/lightbox.js"></script>
+    <!-- The runtime script-->
 	<script src="js/c2runtime.js"></script>
-
-<!-- Canvas load -->
-    <script>
-		// Size the canvas to fill the browser viewport.
-        
-		jQuery(window).resize(function() {
-			cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
-		});
-		
-		// Start the Construct 2 project running on window load.
-		jQuery(document).ready(function ()
-		{			
-			// Create new runtime using the c2canvas
-			cr_createRuntime("c2canvas");
-		});
-		
-		// Pause and resume on page becoming visible/invisible
-		function onVisibilityChanged() {
-			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
-				cr_setSuspended(true);
-			else
-				cr_setSuspended(false);
-		};
-		
-		document.addEventListener("visibilitychange", onVisibilityChanged, false);
-		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
-		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
-		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
-    </script>
-
-<!-- Toyota Menu Slider -->
-            <script type="text/javascript">
-                
-                var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-                    body = document.body;
-
-                showLeft.onclick = function() {
-                    classie.toggle( this, 'active' );
-                    classie.toggle( menuLeft, 'cbp-spmenu-open' );
-                    disableOther( 'showLeft' );
-                };
-
-                function disableOther( button ) {
-                    if( button !== 'showLeft' ) {
-                        classie.toggle( showLeft, 'disabled' );
-                    }
-                }
-            </script>
-
+    <!--Script for additional jquery functions-->
+    <script src="js/script.js"></script>
     
 </body> 
 </html> 

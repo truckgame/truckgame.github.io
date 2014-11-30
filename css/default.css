@@ -55,19 +55,18 @@ button {
     border: none !important;
     padding: none !important;
     background: none !important;
-    line-height: 30px !important;
+    line-height: 40px !important;
     outline:0 !important;
     display: inline-block;
-    margin: 5px 0 0 -15px;
-    width: 100px;
+    width: 50px;
 	cursor: pointer;
 	font-size: 0.8em;
     z-index: 9000;
 	font-weight: 300;
-	color: #47a3da;
+	color: rgba(71, 163, 218, 0.7);
     font-size: 3em;
 }
 
 #showLeft:hover {
-    opacity: .7;
+	color: rgb(71, 163, 218);
 }

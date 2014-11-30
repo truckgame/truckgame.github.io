@@ -6,15 +6,6 @@
     height: 304px !important;
 }
 
-.cbp-spmenu h3 {
-	color: #afdefa;
-	font-size: 1.9em;
-	padding: 20px;
-	margin: 0;
-	font-weight: 300;
-	background: rgba(13, 119, 182, 0.7);
-}
-
 .cbp-spmenu a {
 	display: block;
 	color: #fff;
@@ -23,11 +14,11 @@
 }
 
 .cbp-spmenu a:hover {
-	background: rgba(37, 142, 205, 0.7);
+	background: rgba(37, 142, 205, .9);
 }
 
 .cbp-spmenu a:active {
-	background: rgba(175, 222, 250, 0.7);
+	background: rgba(175, 222, 250, .9);
 	color: #47a3da;
 }
 
@@ -38,6 +29,7 @@
 	height: 100%;
 	top: 0;
 	z-index: 1000;
+    overflow: hidden !important;
 }
 
 .cbp-spmenu-vertical a {
@@ -79,6 +71,33 @@
 	transition: all 0.3s ease;
 }
 
+/* Share Options */
+
+#share_container {
+    display: table;
+    overflow: hidden !important;
+    width: 100%;
+}
+#sharethis {
+    text-align: center;
+    padding: 10px;
+}
+.share {
+    text-align: center;
+    padding: 13px 10px 13px 10px !important;
+    border-bottom: none !important;
+}
+#share1 {
+    display: table-cell;
+}
+#share2 {
+    vertical-align: middle;
+    display: table-cell;
+}
+#share3 {
+    display: table-cell;
+}
+
 /* Example media queries */
 
 @media screen and (max-height: 26.375em){
@@ -99,62 +118,8 @@
 		left: 190px;
 	}
     
-    #share_container {
-        display: inline;
-        padding: 0 !important;
-        width: 100%;
-    }
     .share {
         text-align: center;
         border-bottom: none !important;
-    }
-    #share1 {
-        display: block;
-        padding: 0 !important;
-    }
-    #share2 {
-        display: block;
-        padding: 0 !important;
-    }
-    #share3 {
-        display: block;
-        padding: 0 !important;
-    }
-}
-
-/* Share Options */
-
-#share_container {
-    display: table;
-    width: 100%;
-}
-#sharethis {
-    text-align: center;
-    padding: 10px;
-}
-.share {
-    text-align: center;
-    padding: 10px 20px 10px 20px !important;
-    border-bottom: none !important;
-}
-#share1 {
-    display: table-cell;
-}
-#share2 {
-    vertical-align: middle;
-    display: table-cell;
-}
-#share3 {
-    display: table-cell;
-}
-
-/*Menu Arrow*/
-
-a.arrow {
-    text-decoration: none !important;
-    color: rgba(46, 145, 204, .5) !important;
-}
-a.arrow:hover {
-    text-decoration: none !important;
-    color: rgba(46, 145, 204, 1) !important;
+        padding: 10px 10px 10px 10px !important;
 }

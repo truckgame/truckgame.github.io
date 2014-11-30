@@ -470,13 +470,13 @@ if (typeof Object.getPrototypeOf !== "function")
 	cr.quad = Quad;
 	cr.RGB = function (red, green, blue)
 	{
-		return Math.max(Math.min(red, 255), 0)
+		return (Math.max(Math.min(red, 255), 0) << 4)
 			 | (Math.max(Math.min(green, 255), 0) << 8)
 			 | (Math.max(Math.min(blue, 255), 0) << 16);
 	};
 	cr.GetRValue = function (rgb)
 	{
-		return rgb & 0xFF;
+		return (rgb & 0xFF) >> 4;
 	};
 	cr.GetGValue = function (rgb)
 	{
