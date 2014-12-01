@@ -1,13 +1,10 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: rgba(71, 163, 218, 0.9);
+	background: rgba(74, 169, 227, 0.95);
 	position: fixed;
     margin-top: 50px;
     height: 304px !important;
-<<<<<<< HEAD
     z-index: 99999 !important;
-=======
->>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 }
 
 .cbp-spmenu a {
@@ -126,8 +123,5 @@
         text-align: center;
         border-bottom: none !important;
         padding: 10px 10px 10px 10px !important;
-<<<<<<< HEAD
     }
-=======
->>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 }

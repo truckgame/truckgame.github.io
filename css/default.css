@@ -61,22 +61,13 @@ button {
     width: 50px;
 	cursor: pointer;
 	font-size: 0.8em;
-<<<<<<< HEAD
     z-index: 99999 !important;
 	font-weight: 300;
-	color: rgb(71, 163, 218);
-=======
-    z-index: 9000;
 	font-weight: 300;
-	color: rgba(71, 163, 218, 0.7);
->>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
+	color: rgb(74, 169, 227);
     font-size: 3em;
 }
 
 #showLeft:hover {
-<<<<<<< HEAD
 	color: rgb(0, 137, 219);
-=======
-	color: rgb(71, 163, 218);
->>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 }
