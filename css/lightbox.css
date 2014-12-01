@@ -2,8 +2,11 @@
   position:absolute;
   left:0;
   top:0;
+<<<<<<< HEAD
   height: 100% !important;
   width: 100% !important;
+=======
+>>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
   z-index:9000;
   background-color:#000;
   display:none;
@@ -49,11 +52,14 @@ body{
 #popupfoot a{
 	text-decoration: none;
 }
+<<<<<<< HEAD
 .agree {
     padding: 5px;
     border-radius: 5px;
     text-align: center;
 }
+=======
+>>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 .agree:hover{
   background-color: #D1D1D1;
 }

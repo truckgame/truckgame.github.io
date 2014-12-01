@@ -4,7 +4,10 @@
 	position: fixed;
     margin-top: 50px;
     height: 304px !important;
+<<<<<<< HEAD
     z-index: 99999 !important;
+=======
+>>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 }
 
 .cbp-spmenu a {
@@ -123,5 +126,8 @@
         text-align: center;
         border-bottom: none !important;
         padding: 10px 10px 10px 10px !important;
+<<<<<<< HEAD
     }
+=======
+>>>>>>> a50d4193e02a79c22bd1699434495791912ad2ee
 }
