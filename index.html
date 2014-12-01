@@ -44,33 +44,20 @@
  
 <body> 
     
-    <!-- Logos 
-    <div id="logo_container" style="position:fixed;z-index:1000;">
-        <div class="logo" id="logo1" style="position:relative;display:inline-block;padding:5px;">
-            <a href="http://www.sporkmarketing.com" target="_tab"><img src="images/logo1.png"/></a>
+<!-- Lightbox -->
+    <div id="boxes">
+      <div style="top: 199.5px; left: 551.5px; display: none; color: black;" id="dialog" class="window"> 
+        Toyota Baja 1000 Off-Road Race 2014
+          </br></br>
+        <div id="lorem">
+          <p>The Fjord Team has broken down AGAIN! Deliver the used car parts to help the fjord team get back in the race. Careful not to drop any of the cargo!</p>
         </div>
-    </div> -->
-    
-    
-                <!-- SOCIAL SHARE
-                <div id="minishare_container">
-                    <script type="text/javascript">
-                        $.miniShare();
-                    </script> -->
-    
-    <!--
-	<script>
-	// Issue a warning if trying to preview an exported project on disk.
-	(function(){
-		// Check for running exported on file protocol
-		if (window.location.protocol.substr(0, 4) === "file")
-		{
-			alert("Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)");
-		}
-	})();
-	</script>
-	-->
-	<!-- The canvas must be inside a div called c2canvasdiv -->
+        <div id="popupfoot"> <a href="#" class="close agree"style="color:black;">Okay!</a> </div>
+      </div>
+      <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+    </div>
+
+<!-- Canvas -->
 	<div id="c2canvasdiv">
 	
 		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
@@ -89,12 +76,10 @@
 		
 	</div>
     
-    <!-- TOYOTA PARTS MENU -->
+<!-- TOYOTA PARTS MENU -->
     
-            <!-- Class "cbp-spmenu-open" gets applied to menu -->
-                        <button id="showLeft">&#9776;</button>
-            <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-            
+    <!-- Class "cbp-spmenu-open" gets applied to menu -->
+    <button id="showLeft">&#9776;</button>
     
     <div class="cbp-spmenu-push">
             <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
@@ -119,21 +104,8 @@
                     </div>
             </nav>
         </div>
-    
-    <!-- Lightbox -->
-    <div id="boxes">
-      <div style="top: 199.5px; left: 551.5px; display: none; color: black;" id="dialog" class="window"> 
-        Toyota Baja 1000 Off-Road Race 2014
-          </br></br>
-        <div id="lorem">
-          <p>The Fjord Team has broken down AGAIN! Deliver the used car parts to help the fjord team get back in the race. Careful not to drop any of the cargo!</p>
-        </div>
-        <div id="popupfoot"> <a href="#" class="close agree"style="color:black;">Okay!</a> </div>
-      </div>
-      <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
-    </div>
 	
-	<!-- Pages load faster with scripts at the bottom -->
+<!-- Pages load faster with scripts at the bottom -->
     
     <!--jQuery Library-->
     <script src="http://code.jquery.com/jquery-2.1.1.js"></script>

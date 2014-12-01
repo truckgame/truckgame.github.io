@@ -8,7 +8,8 @@
 		jQuery(window).resize(function() {
 			cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
 		});		
-			// Create new runtime using the c2canvas
+            
+            // Create new runtime using the c2canvas
 			cr_createRuntime("c2canvas");
 		
             //Lightbox Pop-Up
@@ -22,6 +23,7 @@
                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
               })();
+            
             
 		// Pause and resume on page becoming visible/invisible
 		function onVisibilityChanged() {
