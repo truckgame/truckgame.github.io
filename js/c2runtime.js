@@ -32893,7 +32893,7 @@ false,false,101445984360789,false
 						]
 						,[
 							2,
-							"You made it! Unfortunately, you lost some spare parts, so the Fjord team will not be able to fix their truck. But they were just going to break down again anyways, so who cares."
+							"You made it! Unfortunately, you lost some spare parts, so the Fjord team will not be able to fix their truck. But they were just going to break down again anyway, so who cares."
 						]
 					]
 				]
