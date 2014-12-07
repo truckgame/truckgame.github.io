@@ -64,10 +64,6 @@ button {
     z-index: 99999 !important;
 	font-weight: 300;
 	font-weight: 300;
-	color: rgb(74, 169, 227);
+	color: grey;
     font-size: 3em;
-}
-
-#showLeft:hover {
-	color: rgb(0, 137, 219);
 }
