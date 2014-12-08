@@ -35929,9 +35929,9 @@ false,false,101445984360789,false
 			[
 			[
 				29,
-				cr.plugins_.Browser.prototype.acts.GoToURL,
+				cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 				null,
-				7112609545002586,
+				237987386824655,
 				false
 				,[
 				[
@@ -35939,6 +35939,13 @@ false,false,101445984360789,false
 					[
 						2,
 						"https://www.facebook.com/sharer/sharer.php?u=URLENCODED_URL&t=TITLE"
+					]
+				]
+,				[
+					1,
+					[
+						2,
+						"NewWindow"
 					]
 				]
 				]
@@ -35973,9 +35980,9 @@ false,false,101445984360789,false
 			[
 			[
 				29,
-				cr.plugins_.Browser.prototype.acts.GoToURL,
+				cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 				null,
-				960315871047808,
+				6374497914947437,
 				false
 				,[
 				[
@@ -35983,6 +35990,13 @@ false,false,101445984360789,false
 					[
 						2,
 						"https://twitter.com/share?url=URLENCODED_URL&via=TWITTER_HANDLE&text=TEXT"
+					]
+				]
+,				[
+					1,
+					[
+						2,
+						"NewWindow"
 					]
 				]
 				]
@@ -36017,9 +36031,9 @@ false,false,101445984360789,false
 			[
 			[
 				29,
-				cr.plugins_.Browser.prototype.acts.GoToURL,
+				cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 				null,
-				9651574696467566,
+				9920203124384669,
 				false
 				,[
 				[
@@ -36027,6 +36041,13 @@ false,false,101445984360789,false
 					[
 						2,
 						"https://plus.google.com/share?url=URLENCODED_URL"
+					]
+				]
+,				[
+					1,
+					[
+						2,
+						"NewWindow"
 					]
 				]
 				]
