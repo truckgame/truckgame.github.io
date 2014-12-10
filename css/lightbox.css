@@ -10,11 +10,10 @@
 }  
 #boxes .window {
   position:absolute;
-  left:0;
-  top:0;
+  margin: 0 auto !important;
   width:440px;
   height:200px;
-  display:none;
+  display:block;
   z-index:9999;
   padding:20px;
   border-radius: 15px;
@@ -30,24 +29,21 @@
   font-size: 15pt;
 }
 .maintext {
-	text-align: center !important;
+    text-align: center !important;
     font-family: "Segoe UI", sans-serif;
     text-decoration: none;
 }
-body{
-    background: url('bg.jpg');
-}
-#lorem{
+#lorem {
 	font-family: "Segoe UI", sans-serif;
 	font-size: 12pt;
     text-align: left;
 }
-#popupfoot{
+#popupfoot {
 	font-family: "Segoe UI", sans-serif;
 	font-size: 16pt;
     padding: 15px 0 10px;
 }
-#popupfoot a{
+#popupfoot a {
 	text-decoration: none;
 }
 .agree {
@@ -65,6 +61,7 @@ body{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  box-shadow: 0 3px 5px black;
 }
 .agree:hover{
   background: #b0b0b0;
@@ -73,6 +70,7 @@ body{
   background-image: -ms-linear-gradient(top, #646464, #b0b0b0);
   background-image: -o-linear-gradient(top, #646464, #b0b0b0);
   background-image: linear-gradient(to bottom, #646464, #b0b0b0);
+  box-shadow: 0 3px 5px black;
 }
 .popupoption:hover{
 	background-color:#D1D1D1;
