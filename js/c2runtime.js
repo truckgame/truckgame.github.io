@@ -34998,12 +34998,19 @@ false,false,101445984360789,false
 										[
 											10,
 											[
-												2,
-												"Cargo:"
+												10,
+												[
+													2,
+													"Cargo:"
+												]
+												,[
+													23,
+													"CargoCount"
+												]
 											]
 											,[
-												23,
-												"CargoCount"
+												2,
+												"/4"
 											]
 										]
 										,[
@@ -35196,12 +35203,19 @@ false,false,101445984360789,false
 										[
 											10,
 											[
-												2,
-												"Cargo:"
+												10,
+												[
+													2,
+													"Cargo:"
+												]
+												,[
+													23,
+													"CargoCount"
+												]
 											]
 											,[
-												23,
-												"CargoCount"
+												2,
+												"/4"
 											]
 										]
 										,[
